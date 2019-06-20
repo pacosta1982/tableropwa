@@ -194,8 +194,9 @@ class HomeController extends Controller
         $adminid=$request->input('adminid');
         $metaid=$request->input('metaid');
         $porcentajeid=$request->input('porcentajeid');
+        $proy = $id;
 
-        return view('projects.showexp',compact('expediente','adminid','metaid','porcentajeid','progid','dptoid','estadoid','page','historial','expnro','proyname','satname'));
+        return view('projects.showexp',compact('expediente','adminid','proy','metaid','porcentajeid','progid','dptoid','estadoid','page','historial','expnro','proyname','satname'));
 
     }
 

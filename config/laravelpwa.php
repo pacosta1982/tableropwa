@@ -1,9 +1,9 @@
 <?php
 return [
-    'name' => 'Expedientes',
+    'name' => 'Tablero MUVH',
     'manifest' => [
-        'name' => env('APP_NAME', 'Expedientes MUVH'),
-        'short_name' => 'Expedientes',
+        'name' => env('APP_NAME', 'Tablero MUVH'),
+        'short_name' => 'Tablero MUVH',
         'start_url' => '/home',
         'background_color' => '#0E14F3',
         'theme_color' => '#0E14F3',

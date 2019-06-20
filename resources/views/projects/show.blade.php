@@ -28,7 +28,17 @@
       <div class="col-xs-12">
         <h2 class="page-header">
           <i class="fa fa-globe"></i> {{utf8_encode($project->SEOBProy) }}
-          <small class="pull-right"><strong>w</strong></small>
+          <a href="{!! action('HomeController@index', ['progid' => $progid,'dptoid' => $dptoid,'estadoid' => $estadoid,'page' => $page,'idtipo'=>'1','proyname' => $proyname,
+              'satname' => $satname,'adminid' =>$adminid,'metaid' =>$metaid,'porcentajeid' =>$porcentajeid]) !!}">
+                <button type="button" class="btn btn-primary btn-sm  pull-right" style="margin-bottom:10px;"><i class="fa fa-mail-reply"></i>
+                  <strong>Volver</strong> 
+                </button>
+              </a>
+          
+        <!--  <small class="pull-right"><strong><a href="{!! action('HomeController@index', ['progid' => $progid,'dptoid' => $dptoid,'estadoid' => $estadoid,'page' => $page,'idtipo'=>'1','proyname' => $proyname,
+              'satname' => $satname,'adminid' =>$adminid,'metaid' =>$metaid,'porcentajeid' =>$porcentajeid]) !!}">
+                Volver
+              </a></strong></small> -->
         </h2>
       </div>
       <!-- /.col -->

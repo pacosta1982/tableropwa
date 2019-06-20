@@ -23,7 +23,7 @@ self.addEventListener("install", event => {
             })
     )
 });
-
+ 
 // Clear cache on activate
 self.addEventListener('activate', event => {
     event.waitUntil(

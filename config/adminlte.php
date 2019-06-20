@@ -117,23 +117,23 @@ return [
         [
             'text'        => 'Proyectos',
             'url'         => 'home',
-            'icon'        => 'file',
+            'icon'        => 'bank',
         ],
         'ACCOUNT SETTINGS',
         [
             'text' => 'Mapa de Proyectos',
             'url'  => 'mapas',
-            'icon' => 'user',
+            'icon' => 'map-o',
         ],
         [
             'text' => 'Mapa de Viviendas',
             'url'  => 'viviendas',
-            'icon' => 'lock',
+            'icon' => 'map-pin',
         ],
         [
             'text' => 'Graficos',
             'url'  => 'graficos',
-            'icon' => 'lock',
+            'icon' => 'bar-chart',
         ],
       
        
