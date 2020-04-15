@@ -9,7 +9,6 @@
         @foreach($observaciones as $obs)
         <tr>
         <td>{{$obs->SEOBObserv}}</td>
-        <td>{{$obs->SEOBDExpNro}}</td>
         <td style="text-align:center;">
             @if($obs->SEOBDExpNro != 0)
 
