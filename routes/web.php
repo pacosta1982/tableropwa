@@ -23,11 +23,11 @@ Route::get('/home/{id}/exp/{idexp}', 'HomeController@showexp');
 
 Route::get('proyecto', 'ProjectController@showproject');
 
-Route::resource('/mapas', 'MapsController');
+//Route::resource('/mapas', 'MapsController');
 
-Route::resource('/graficos', 'GraficosController');
+//Route::resource('/graficos', 'GraficosController');
 
-Route::resource('viviendas', 'ViviendaController');
+//Route::resource('viviendas', 'ViviendaController');
 
 Route::get('/downloadhis', 'HomeController@csvhistorial');
 
@@ -36,11 +36,11 @@ Route::get('/downloadproject', 'HomeController@downloadproject');
 Route::post('/filtros', 'HomeController@index');
 Route::get('/filtros', 'HomeController@index');
 
-Route::post('/filtrosmapa', 'MapsController@index');
-Route::get('/filtrosmapa', 'MapsController@index');
+//Route::post('/filtrosmapa', 'MapsController@index');
+//Route::get('/filtrosmapa', 'MapsController@index');
 
-Route::post('/filtrosgraficos', 'GraficosController@index');
-Route::get('/filtrosgraficos', 'GraficosController@index');
+//Route::post('/filtrosgraficos', 'GraficosController@index');
+//Route::get('/filtrosgraficos', 'GraficosController@index');
 
 //Route::get('/dashboard/home', 'DashboardController@versionone')->name('home');
 //Route::get('/dashboard/v2', 'DashboardController@versiontwo')->name('v2');
