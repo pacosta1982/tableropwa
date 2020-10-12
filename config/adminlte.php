@@ -119,7 +119,7 @@ return [
             'url'         => 'home',
             'icon'        => 'bank',
         ],
-        'ACCOUNT SETTINGS',
+        /*'ACCOUNT SETTINGS',
         [
             'text' => 'Mapa de Proyectos',
             'url'  => 'mapas',
@@ -134,9 +134,9 @@ return [
             'text' => 'Graficos',
             'url'  => 'graficos',
             'icon' => 'bar-chart',
-        ],
-      
-       
+        ],*/
+
+
     ],
 
     /*

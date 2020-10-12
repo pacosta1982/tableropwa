@@ -22,7 +22,7 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                
+
                 <li class="nav-item">
                     <a href="{{url('/home')}}" class="nav-link">
                 <i class="nav-icon fa fa-th-list"></i>
@@ -43,12 +43,12 @@
                       <p>Mapa de Viviendas</p>
                     </a>
                   </li>
-                <li class="nav-item">
+            <!--    <li class="nav-item">
                   <a href="{{url('/graficos')}}" class="nav-link ">
                     <i class="nav-icon fa fa-bar-chart"></i>
                     <p>Graficos</p>
                   </a>
-                </li>
+                </li> -->
                 <div class="brand-link"></div>
                 <li class="nav-item">
                     <a href="{{url('/logout')}}" class="nav-link">
@@ -56,11 +56,11 @@
                       <p>Salir</p>
                     </a>
                   </li>
-                               
+
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
-        
+
     </div>
     <!-- /.sidebar -->
 </aside>
